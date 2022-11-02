@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.5" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.003125" altunitdist="mic" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -20,29 +20,29 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
@@ -56,7 +56,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -110,7 +110,7 @@ C6: 22uF
 <wire x1="2" y1="48" x2="70" y2="48" width="0.15" layer="47"/>
 <wire x1="70" y1="48" x2="70" y2="2" width="0.15" layer="47"/>
 <wire x1="70" y1="2" x2="2" y2="2" width="0.15" layer="47"/>
-<hole x="11" y="44.5" drill="2.6"/>
+<hole x="11" y="44.5" drill="3.1"/>
 <wire x1="11" y1="49.5" x2="11" y2="48.5" width="0.15" layer="47"/>
 <wire x1="0.5" y1="44.5" x2="1.5" y2="44.5" width="0.15" layer="47"/>
 <wire x1="61" y1="49.5" x2="61" y2="48.5" width="0.15" layer="47"/>
@@ -119,9 +119,9 @@ C6: 22uF
 <wire x1="61" y1="0.5" x2="61" y2="1.5" width="0.15" layer="47"/>
 <wire x1="11" y1="0.5" x2="11" y2="1.5" width="0.15" layer="47"/>
 <wire x1="1.5" y1="5.5" x2="0.5" y2="5.5" width="0.15" layer="47"/>
-<hole x="11" y="5.5" drill="2.6"/>
-<hole x="61" y="5.5" drill="2.6"/>
-<hole x="61" y="44.5" drill="2.6"/>
+<hole x="11" y="5.5" drill="3.1"/>
+<hole x="61" y="5.5" drill="3.1"/>
+<hole x="61" y="44.5" drill="3.1"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -1609,40 +1609,36 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <attribute name="POPULARITY" value="63" x="73.35" y="-11.24" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="73.35" y="-11.24" size="1.778" layer="27" display="off"/>
 </element>
-<element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="26.36" y="14.16" smashed="yes" rot="R180">
-<attribute name="NAME" x="27.63" y="16.7" size="1.27" layer="25" font="vector" ratio="20" rot="R180"/>
-<attribute name="POPULARITY" value="63" x="-15.55" y="53.53" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="-15.55" y="53.53" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="100nF" x="25" y="35" smashed="yes" rot="R270">
+<attribute name="NAME" x="25" y="38" size="1.27" layer="25" font="vector" ratio="20" align="center"/>
+<attribute name="POPULARITY" value="63" x="-14.37" y="-6.91" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-14.37" y="-6.91" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="680pF" x="31.44" y="11.62" smashed="yes" rot="R90">
-<attribute name="NAME" x="32.71" y="12.89" size="1.27" layer="25" font="vector" ratio="20" rot="R270"/>
-<attribute name="POPULARITY" value="63" x="70.81" y="59.88" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="SPICEPREFIX" value="C" x="70.81" y="59.88" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="680pF" x="20" y="40" smashed="yes" rot="R180">
+<attribute name="NAME" x="23" y="40" size="1.27" layer="25" font="vector" ratio="20" rot="R90" align="center"/>
+<attribute name="POPULARITY" value="63" x="-28.26" y="79.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="SPICEPREFIX" value="C" x="-28.26" y="79.37" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="681K" x="37.79" y="25.59" smashed="yes" rot="R180">
 <attribute name="NAME" x="38.425" y="24.32" size="1.27" layer="25" font="vector" ratio="20" rot="R180"/>
 <attribute name="POPULARITY" value="85" x="20.01" y="78.93" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="20.01" y="78.93" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K" x="26.36" y="9.08" smashed="yes">
-<attribute name="NAME" x="25.725" y="6.54" size="1.27" layer="25" font="vector" ratio="20"/>
-<attribute name="POPULARITY" value="85" x="49.22" y="-44.26" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="49.22" y="-44.26" size="1.778" layer="27" display="off"/>
+<element name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K" x="19" y="35" smashed="yes" rot="R90">
+<attribute name="NAME" x="19" y="38" size="1.27" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
+<attribute name="POPULARITY" value="85" x="72.34" y="57.86" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="72.34" y="57.86" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K" x="26.36" y="11.62" smashed="yes">
-<attribute name="NAME" x="23.82" y="10.985" size="1.27" layer="25" font="vector" ratio="20" rot="R90"/>
-<attribute name="POPULARITY" value="85" x="54.3" y="-41.72" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="R" x="54.3" y="-41.72" size="1.778" layer="27" display="off"/>
+<element name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="1K" x="22" y="35" smashed="yes" rot="R90">
+<attribute name="NAME" x="22" y="38" size="1.27" layer="25" font="vector" ratio="20" rot="R180" align="center"/>
+<attribute name="POPULARITY" value="85" x="75.34" y="62.94" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SPICEPREFIX" value="R" x="75.34" y="62.94" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U1" library="EL1883" package="SO-8" value="EL1883" x="28.13" y="26.39" smashed="yes">
 <attribute name="NAME" x="26.881396875" y="31.433084375" size="1.27" layer="25" font="vector" ratio="20" rot="SR0"/>
 </element>
-<element name="X1" library="vga_port" package="HD15H" value="VGA-PORT" x="60.85" y="25" smashed="yes" rot="R90">
-<attribute name="VALUE" x="67.2" y="14.84" size="1.778" layer="27" ratio="10" rot="R90"/>
-</element>
-<element name="X2" library="vga_port" package="HD15H" value="VGA-PORT" x="11" y="25" smashed="yes" rot="R270">
-<attribute name="VALUE" x="4.65" y="35.16" size="1.778" layer="27" ratio="10" rot="R270"/>
-</element>
+<element name="X1" library="vga_port" package="HD15H" value="VGA-PORT" x="60.85" y="25" smashed="yes" rot="R90"/>
+<element name="X2" library="vga_port" package="HD15H" value="VGA-PORT" x="11" y="25" smashed="yes" rot="R270"/>
 <element name="U2" library="AMS1117-3.3" package="SOT229P700X180-4N" value="AMS1117-3.3" x="47.95" y="40.83" smashed="yes">
 <attribute name="AVAILABILITY" value="Not in stock" x="47.95" y="40.83" size="1.27" layer="27" ratio="20" display="off"/>
 <attribute name="DESCRIPTION" value=" LDO Voltage Regulators 800MA LDO LINEAR REG " x="47.95" y="40.83" size="1.27" layer="27" ratio="20" display="off"/>
@@ -1680,7 +1676,7 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <contactref element="X1" pad="10"/>
 <contactref element="X1" pad="5"/>
 <contactref element="X2" pad="5"/>
-<polygon width="0.1524" layer="1">
+<polygon width="0.1524" layer="1" isolate="0.254" rank="2">
 <vertex x="2.5" y="3"/>
 <vertex x="2.5" y="48"/>
 <vertex x="69.5" y="48"/>
@@ -1698,13 +1694,11 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <vertex x="69.54" y="48.45"/>
 <vertex x="2.23" y="48.45"/>
 </polygon>
-<via x="53.03" y="30.67" extent="1-16" drill="0.35"/>
-<via x="55.38" y="31.67" extent="1-16" drill="0.35"/>
 <via x="66.475" y="12.732" extent="1-16" drill="0.35"/>
-<via x="15.565" y="31.432" extent="1-16" drill="0.35"/>
-<via x="21.915" y="36.512" extent="1-16" drill="0.35"/>
+<via x="19.565" y="29.432" extent="1-16" drill="0.35"/>
+<via x="5.915" y="11.512" extent="1-16" drill="0.35"/>
 <via x="24.455" y="23.812" extent="1-16" drill="0.35"/>
-<via x="19.645" y="12.192" extent="1-16" drill="0.35"/>
+<via x="23" y="21" extent="1-16" drill="0.35"/>
 <via x="32.075" y="6.032" extent="1-16" drill="0.35"/>
 <via x="50.555" y="7.382" extent="1-16" drill="0.35"/>
 <via x="30.805" y="40.322" extent="1-16" drill="0.35"/>
@@ -1712,18 +1706,18 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <via x="48.585" y="14.922" extent="1-16" drill="0.35"/>
 <via x="53.555" y="18.242" extent="1-16" drill="0.35"/>
 <via x="66.365" y="39.052" extent="1-16" drill="0.35"/>
-<via x="43.505" y="30.162" extent="1-16" drill="0.35"/>
+<via x="44.505" y="28.162" extent="1-16" drill="0.35"/>
 <contactref element="U2" pad="1"/>
 <contactref element="5V-IN" pad="2"/>
 <contactref element="C5" pad="2"/>
 <contactref element="C6" pad="2"/>
-<via x="49.855" y="31.702" extent="1-16" drill="0.35"/>
+<via x="54.855" y="30.702" extent="1-16" drill="0.35"/>
 <via x="42.235" y="36.512" extent="1-16" drill="0.35"/>
 <via x="43.505" y="45.402" extent="1-16" drill="0.35"/>
 <via x="38.695" y="31.702" extent="1-16" drill="0.35"/>
 <via x="28.265" y="28.892" extent="1-16" drill="0.35"/>
 <via x="16.835" y="6.032" extent="1-16" drill="0.35"/>
-<via x="32.075" y="18.732" extent="1-16" drill="0.35"/>
+<via x="26" y="19" extent="1-16" drill="0.35"/>
 <via x="13.485" y="16.462" extent="1-16" drill="0.35"/>
 <contactref element="X2" pad="G2"/>
 <contactref element="X2" pad="G1"/>
@@ -1746,12 +1740,12 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <signal name="VSYNC-OUT">
 <contactref element="U1" pad="3"/>
 <contactref element="X1" pad="14"/>
-<wire x1="52.76" y1="32.94" x2="60.9360875" y2="32.94" width="0.3048" layer="1"/>
+<wire x1="54.76" y1="32.94" x2="60.9360875" y2="32.94" width="0.3048" layer="1"/>
 <wire x1="60.9360875" y1="32.94" x2="62.1260875" y2="31.75" width="0.3048" layer="1"/>
 <wire x1="62.1260875" y1="31.75" x2="62.1260875" y2="23.7349125" width="0.3048" layer="1"/>
-<wire x1="52.76" y1="32.94" x2="42.87" y2="23.05" width="0.3048" layer="1"/>
-<wire x1="42.87" y1="23.05" x2="30.17" y2="23.05" width="0.3048" layer="1"/>
-<wire x1="30.17" y1="23.05" x2="27.63" y2="25.59" width="0.3048" layer="1"/>
+<wire x1="54.76" y1="32.94" x2="45.37" y2="23.55" width="0.3048" layer="1"/>
+<wire x1="45.37" y1="23.55" x2="29.67" y2="23.55" width="0.3048" layer="1"/>
+<wire x1="29.67" y1="23.55" x2="27.63" y2="25.59" width="0.3048" layer="1"/>
 <wire x1="27.63" y1="25.59" x2="27.63" y2="26.86" width="0.3048" layer="1"/>
 <wire x1="27.63" y1="26.86" x2="26.83" y2="27.66" width="0.3048" layer="1"/>
 <wire x1="26.83" y1="27.66" x2="25.5392" y2="27.66" width="0.3048" layer="1"/>
@@ -1760,14 +1754,14 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <signal name="HSYNC-OUT">
 <contactref element="U1" pad="7"/>
 <contactref element="X1" pad="13"/>
-<wire x1="30.7208" y1="28.93" x2="33.51" y2="28.93" width="0.3048" layer="1"/>
-<wire x1="33.51" y1="28.93" x2="36.52" y2="31.94" width="0.3048" layer="1"/>
-<via x="36.52" y="31.94" extent="1-16" drill="0.35"/>
-<wire x1="36.52" y1="31.94" x2="37.52" y2="32.94" width="0.3048" layer="16"/>
-<wire x1="37.52" y1="32.94" x2="63.06" y2="32.94" width="0.3048" layer="16"/>
-<wire x1="63.06" y1="32.94" x2="65.92" y2="30.08" width="0.3048" layer="16"/>
-<wire x1="65.92" y1="30.08" x2="65.92" y2="27.287" width="0.3048" layer="16"/>
-<wire x1="63.39" y1="24.757" x2="65.92" y2="27.287" width="0.3048" layer="16"/>
+<wire x1="30.7208" y1="28.93" x2="33.93" y2="28.93" width="0.4064" layer="1"/>
+<wire x1="33.93" y1="28.93" x2="35" y2="30" width="0.4064" layer="1"/>
+<wire x1="35" y1="30" x2="50" y2="30" width="0.4064" layer="1"/>
+<wire x1="50" y1="30" x2="54" y2="34" width="0.4064" layer="1"/>
+<wire x1="54" y1="34" x2="62" y2="34" width="0.4064" layer="1"/>
+<wire x1="62" y1="34" x2="65" y2="31" width="0.4064" layer="1"/>
+<wire x1="65" y1="31" x2="65" y2="26.367" width="0.4064" layer="1"/>
+<wire x1="65" y1="26.367" x2="63.39" y2="24.757" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$4">
 <contactref element="U1" pad="6"/>
@@ -1780,71 +1774,66 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <signal name="N$1">
 <contactref element="U1" pad="2"/>
 <contactref element="C3" pad="2"/>
-<wire x1="25.41" y1="14.16" x2="23.82" y2="14.16" width="0.3048" layer="1"/>
-<wire x1="23.82" y1="14.16" x2="22.55" y2="15.43" width="0.3048" layer="1"/>
-<wire x1="22.55" y1="15.43" x2="22.55" y2="26.86" width="0.3048" layer="1"/>
-<wire x1="22.55" y1="26.86" x2="24.62" y2="28.93" width="0.3048" layer="1"/>
-<wire x1="24.62" y1="28.93" x2="25.5392" y2="28.93" width="0.3048" layer="1"/>
+<wire x1="25.5392" y1="28.93" x2="24.07" y2="28.93" width="0.4064" layer="1"/>
+<wire x1="24.07" y1="28.93" x2="23" y2="30" width="0.4064" layer="1"/>
+<wire x1="23" y1="30" x2="23" y2="32.05" width="0.4064" layer="1"/>
+<wire x1="23" y1="32.05" x2="25" y2="34.05" width="0.4064" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="C3" pad="1"/>
 <contactref element="C4" pad="1"/>
 <contactref element="R2" pad="2"/>
 <contactref element="R3" pad="2"/>
-<wire x1="31.44" y1="10.67" x2="29.85" y2="10.67" width="0.4064" layer="1"/>
-<wire x1="29.85" y1="10.67" x2="28.9" y2="11.62" width="0.4064" layer="1"/>
-<wire x1="28.9" y1="11.62" x2="27.31" y2="11.62" width="0.4064" layer="1"/>
-<wire x1="27.31" y1="14.16" x2="27.31" y2="11.62" width="0.4064" layer="1"/>
-<wire x1="27.31" y1="11.62" x2="27.31" y2="9.08" width="0.4064" layer="1"/>
+<wire x1="25" y1="35.95" x2="22" y2="35.95" width="0.4064" layer="1"/>
+<wire x1="22" y1="35.95" x2="19" y2="35.95" width="0.4064" layer="1"/>
+<wire x1="22" y1="35.95" x2="22" y2="38.95" width="0.4064" layer="1"/>
+<wire x1="22" y1="38.95" x2="20.95" y2="40" width="0.4064" layer="1"/>
 </signal>
 <signal name="CSYNC-IN">
 <contactref element="R2" pad="1"/>
 <contactref element="X2" pad="13"/>
-<wire x1="25.41" y1="9.08" x2="9.85" y2="9.08" width="0.3048" layer="1"/>
-<wire x1="6.35" y1="23.133" x2="8.46" y2="25.243" width="0.3048" layer="1"/>
-<wire x1="9.85" y1="9.08" x2="6.35" y2="12.58" width="0.3048" layer="1"/>
-<wire x1="6.35" y1="12.58" x2="6.35" y2="23.133" width="0.3048" layer="1"/>
+<wire x1="19" y1="34.05" x2="17.104921875" y2="32.154921875" width="0.4064" layer="1"/>
+<wire x1="8.076434375" y1="32.154921875" x2="6.42220625" y2="30.50069375" width="0.4064" layer="1"/>
+<wire x1="6.42220625" y1="30.50069375" x2="6.42220625" y2="26.06951875" width="0.4064" layer="1"/>
+<wire x1="7.248725" y1="25.243" x2="8.46" y2="25.243" width="0.4064" layer="1"/>
+<wire x1="17.104921875" y1="32.154921875" x2="8.076434375" y2="32.154921875" width="0.4064" layer="1"/>
+<wire x1="6.42220625" y1="26.06951875" x2="7.248725" y2="25.243" width="0.4064" layer="1"/>
 </signal>
 <signal name="R">
 <contactref element="X1" pad="1"/>
 <contactref element="X2" pad="1"/>
-<via x="51.76" y="28.827" extent="1-16" drill="0.35"/>
-<wire x1="51.76" y1="23.05" x2="51.76" y2="28.827" width="0.3048" layer="16"/>
-<wire x1="58.31" y1="29.329" x2="52.262" y2="29.329" width="0.3048" layer="1"/>
-<wire x1="52.262" y1="29.329" x2="51.76" y2="28.827" width="0.3048" layer="1"/>
-<wire x1="49.381" y1="20.671" x2="51.76" y2="23.05" width="0.3048" layer="16"/>
-<wire x1="13.54" y1="20.671" x2="49.381" y2="20.671" width="0.3048" layer="16"/>
+<wire x1="49" y1="20" x2="14.211" y2="20" width="0.4064" layer="1"/>
+<wire x1="13.54" y1="20.671" x2="14.211" y2="20" width="0.4064" layer="1"/>
+<wire x1="59.101875" y1="25.9028" x2="59.62856875" y2="26.42949375" width="0.4064" layer="1"/>
+<wire x1="59.62856875" y1="26.42949375" x2="59.62856875" y2="27.604496875" width="0.4064" layer="1"/>
+<wire x1="54.9028" y1="25.9028" x2="59.101875" y2="25.9028" width="0.4064" layer="1"/>
+<wire x1="49" y1="20" x2="54.9028" y2="25.9028" width="0.4064" layer="1"/>
+<wire x1="59.62856875" y1="27.604496875" x2="58.31" y2="28.923065625" width="0.4064" layer="1"/>
+<wire x1="58.31" y1="28.923065625" x2="58.31" y2="29.329" width="0.4064" layer="1"/>
 </signal>
 <signal name="G">
 <contactref element="X1" pad="2"/>
 <contactref element="X2" pad="2"/>
-<wire x1="18.096575" y1="21.590425" x2="48.395425" y2="21.590425" width="0.3048" layer="16"/>
-<wire x1="48.395425" y1="21.590425" x2="50.49" y2="23.685" width="0.3048" layer="16"/>
-<wire x1="50.49" y1="23.685" x2="50.49" y2="26.541" width="0.3048" layer="16"/>
-<via x="50.49" y="26.541" extent="1-16" drill="0.35"/>
-<wire x1="58.31" y1="27.043" x2="50.992" y2="27.043" width="0.3048" layer="1"/>
-<wire x1="50.992" y1="27.043" x2="50.49" y2="26.541" width="0.3048" layer="1"/>
-<wire x1="18.096575" y1="21.590425" x2="16.73" y2="22.957" width="0.3048" layer="16"/>
-<wire x1="16.73" y1="22.957" x2="13.54" y2="22.957" width="0.3048" layer="16"/>
+<wire x1="48.957" y1="21.957" x2="14.54" y2="21.957" width="0.4064" layer="1"/>
+<wire x1="13.54" y1="22.957" x2="14.54" y2="21.957" width="0.4064" layer="1"/>
+<wire x1="54.043" y1="27.043" x2="58.31" y2="27.043" width="0.4064" layer="1"/>
+<wire x1="48.957" y1="21.957" x2="54.043" y2="27.043" width="0.4064" layer="1"/>
 </signal>
 <signal name="B">
 <contactref element="X1" pad="3"/>
 <contactref element="X2" pad="3"/>
-<via x="49.22" y="24.255" extent="1-16" drill="0.35"/>
-<wire x1="49.22" y1="24.255" x2="47.4757125" y2="22.5107125" width="0.3048" layer="16"/>
-<wire x1="47.4757125" y1="22.5107125" x2="20.1682875" y2="22.5107125" width="0.3048" layer="16"/>
-<wire x1="58.31" y1="24.757" x2="49.722" y2="24.757" width="0.3048" layer="1"/>
-<wire x1="49.722" y1="24.757" x2="49.22" y2="24.255" width="0.3048" layer="1"/>
-<wire x1="20.1682875" y1="22.5107125" x2="17.436" y2="25.243" width="0.3048" layer="16"/>
-<wire x1="17.436" y1="25.243" x2="13.54" y2="25.243" width="0.3048" layer="16"/>
+<wire x1="12.275946875" y1="20.07728125" x2="14.353228125" y2="18" width="0.4064" layer="1"/>
+<wire x1="12.275946875" y1="23.550721875" x2="12.275946875" y2="20.07728125" width="0.4064" layer="1"/>
+<wire x1="13.54" y1="25.243" x2="13.54" y2="24.814775" width="0.4064" layer="1"/>
+<wire x1="13.54" y1="24.814775" x2="12.275946875" y2="23.550721875" width="0.4064" layer="1"/>
+<wire x1="14.353228125" y1="18" x2="49" y2="18" width="0.4064" layer="1"/>
+<wire x1="55.757" y1="24.757" x2="58.31" y2="24.757" width="0.4064" layer="1"/>
+<wire x1="49" y1="18" x2="55.757" y2="24.757" width="0.4064" layer="1"/>
 </signal>
 <signal name="5V">
 <contactref element="U2" pad="3"/>
 <contactref element="5V-IN" pad="1"/>
 <contactref element="C5" pad="1"/>
-<wire x1="50.24" y1="37.485" x2="50.24" y2="34.73" width="0.7112" layer="1"/>
-<wire x1="50.24" y1="34.73" x2="50.49" y2="34.48" width="0.7112" layer="1"/>
-<via x="50.49" y="34.48" extent="1-16" drill="0.35"/>
 <wire x1="37.79" y1="43.37" x2="37.79" y2="40.83" width="0.7112" layer="1"/>
 <wire x1="37.79" y1="40.83" x2="39.06" y2="39.56" width="0.7112" layer="1"/>
 <wire x1="39.06" y1="39.56" x2="49.22" y2="39.56" width="0.7112" layer="1"/>
@@ -1852,6 +1841,12 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="50.24" y1="38.54" x2="50.24" y2="37.485" width="0.7112" layer="1"/>
 <wire x1="37.79" y1="43.37" x2="35.25" y2="40.83" width="0.7112" layer="1"/>
 <wire x1="35.25" y1="40.83" x2="35.25" y2="39.24" width="0.7112" layer="1"/>
+<polygon width="0.254" layer="1">
+<vertex x="43" y="43"/>
+<vertex x="53" y="43"/>
+<vertex x="53" y="39"/>
+<vertex x="43" y="39"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>
